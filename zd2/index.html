@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="tabs">
+          <nav class="tabs-items">
+            <a href="#sign" class="tabs-item">Sign in</a>
+            <a href="#join" class="tabs-item">Join us</a>
+          </nav>
+          <div class="tabs-body">
+            <div id="sign" class="tabs-block">
+              <form id="data">
+                <p>
+                  <label>Username</label>
+                </p>
+                <p>
+                  <input type="text" name="name" class="form-item" />
+                </p>
+                <p>
+                  <label>Password</label>
+                </p>
+                <p>
+                  <input type="password" name="password" class="form-item" />
+                </p>
+                <p>
+                  <input type="checkbox" class="checkbox-item" />
+                  Keep me signed in
+                </p>
+              </form>
+              <p>
+                <button type="submit" form="data" class="btn-item">
+                  Sign in
+                </button>
+              </p>
+              <a href="URL" class="url-item">Forgot password</a>
+              <a href="URL" class="url-item">Create an account</a>
+            </div>
+            <div id="join" class="tabs-block">
+              <form id="dataj">
+                <p>
+                  <label>Username</label>
+                </p>
+                <p>
+                  <input type="text" name="name" class="form-item" />
+                </p>
+                <p>
+                  <label>Password</label>
+                </p>
+                <p>
+                  <input type="password" name="password" class="form-item" />
+                </p>
+                <p>
+                  <label>Repeat password</label>
+                </p>
+                <p>
+                  <input type="password" name="password" class="form-item" />
+                </p>
+              </form>
+              <p>
+                <button type="submit" form="dataj" class="btn-item">
+                  Join in
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
